@@ -1,12 +1,8 @@
 #include <stdio.h>
-int main() {
+int main(){
     float number;
+    scanf("%f",&number);
+    printf("You entered: %.2f\n",num);
+    return 0;
 
-    printf("Enter a floating point number:");
-    if (scanf("%f",&number)!=1){
-    printf("Invalid input.\n");
-    return 1;
-}
-printf("You entered: %.2f\n",number);
-return 0;
 }
