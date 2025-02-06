@@ -3,6 +3,6 @@
 int main() {
     char ch;
     scanf("%c", &ch);
-    printf("%d\n", ch);
+    printf("Product:%d\n", ch);
     return 0;
 }
