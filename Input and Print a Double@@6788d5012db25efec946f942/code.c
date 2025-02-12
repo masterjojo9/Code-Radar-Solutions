@@ -4,7 +4,7 @@
 int main() {
     double num;
     scanf("%lf", &num);
-    printf("You entered: %.lf\n", num);
+    printf("You entered: %l.f\n", num);
 
     return 0;
 }
