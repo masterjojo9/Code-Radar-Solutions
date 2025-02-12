@@ -4,7 +4,7 @@ int main() {
     int num;
 
     // Prompting user for input
-    printf("Enter an integer: ");
+    
     scanf("%d", &num);
 
     // Printing in Hexadecimal and Octal
