@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
@@ -6,7 +5,7 @@ int main() {
     char operator;
 
     scanf("%d %d %c", &num1, &num2, &operator);
-    
+
     switch (operator) {
         case '+':
             printf("%d\n", num1 + num2);
@@ -19,7 +18,7 @@ int main() {
             break;
         case '/':
             if (num2 != 0) {
-                printf("%d\n", num1 / num2);
+                printf("%.2f\n", (float)num1 / num2);
             } else {
                 printf("Division by zero\n");
             }
@@ -28,6 +27,6 @@ int main() {
             printf("Invalid operator\n");
             break;
     }
-    
+
     return 0;
 }
