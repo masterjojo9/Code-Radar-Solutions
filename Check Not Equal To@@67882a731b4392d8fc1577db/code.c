@@ -1,12 +1,14 @@
-// Your code here...
 #include <stdio.h>
-int main(){
-    int a, b;
-    scanf("%d %d", &a, &b);
-    if (a!=b){
+
+int main() {
+    int num1, num2;
+    scanf("%d %d", &num1, &num2);
+
+    if (num1 != num2) {
         printf("True\n");
-    }else{
+    } else {
         printf("False\n");
     }
+    
     return 0;
 }
