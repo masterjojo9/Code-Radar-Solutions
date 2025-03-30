@@ -13,6 +13,6 @@ int main(){
         printf("Invalid Input");
         return 0;
     }
-    printf(fibonacci(%d)=%d\n,n,fibonacci(n));
+    printf(fibonacci(%d)="%d\n",n,fibonacci(n));
     return 0
 }
