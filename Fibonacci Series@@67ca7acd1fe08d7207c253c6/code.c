@@ -11,7 +11,7 @@ int main(){
     scanf("d",&n);
     if (n<=0){
         printf("Invalid Input");
-        return 0
+        return 0;
     }
     printf(fibonacci(%d)=%d\n,n,fibonacci(n));
     return 0
