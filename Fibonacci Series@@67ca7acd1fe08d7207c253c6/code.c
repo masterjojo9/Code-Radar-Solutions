@@ -14,5 +14,5 @@ int main(){
         return 0;
     }
     printf(fibonacci(%d)="%d\n",n,fibonacci(n));
-    return 0
+    return 0;
 }
