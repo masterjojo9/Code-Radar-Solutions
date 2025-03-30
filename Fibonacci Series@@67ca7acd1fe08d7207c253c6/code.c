@@ -17,6 +17,6 @@ int main(){
         printf("Invalid Input");
         return 0;
     }
-    fibonacciseries(n));
+    fibonacciseries(n);
     return 0;
 }
